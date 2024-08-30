@@ -169,6 +169,79 @@ input {
     width: 100%;
 }
 
+.eventos1 img {
+    width: 90%;
+    margin-top: 4%;
+}
+
+.iconeseventos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconeseventos div:first-child {
+    width: 0;
+    padding: 6%;
+    background-color: #b695c0;
+}
+
+.iconeseventos div:last-child {
+    display: inline;
+    width: fit-content;
+}
+
+.iconeseventos div:last-child p {
+    display: inline-block;
+    margin: 4vw;
+}
+
+.imagenseventos {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenseventos img {
+    width: 20%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.reservesuavaga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reservesuavaga div:first-child {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.reservesuavaga div p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10vw;
+    margin-bottom: 4vw;
+}
+
+.reservesuavaga div button {
+    display: block;
+    width: fit-content;
+    margin-left: 10vw;
+}
+
+.reservesuavaga div img {
+    width: 100%;
+}
+
+.reservesuavaga div:nth-child(2) {
+    width: 50%;
+}
+
 @media screen and (max-width: 712px) {
     #produtosrevialite {
         margin: 31px;
@@ -213,6 +286,32 @@ input {
 
     #produtosrevialite2 * {
         display: block;
+    }
+
+    .reservesuavaga {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .reservesuavaga div p {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 4vw;
+        margin-top: 6vw;
+    }
+    
+    .reservesuavaga div button {
+        display: block;
+        width: fit-content;
+        margin-left: 0;
+        margin-bottom: 10vw;
+    }
+
+    .reservesuavaga div img {
+        width: 100%;
+        margin-bottom: 10vw;
     }
 }
 
